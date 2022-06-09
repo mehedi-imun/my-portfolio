@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 130vh;
     padding-top: 2rem;
     overflow: hidden;
 }
@@ -59,6 +59,19 @@ header{
     header{
         height: 68vh;
     }
+    .about_container {
+        
+        grid-template-columns: 1fr;
+        gap: 0%;
+      }
+      .about_me{
+          width: 50%;
+          margin: 2rem auto 4rem;
+      }
+      .about_content p{
+          margin: 1rem 0.5rem;
+
+      }
     
 }
 /* ======== media queries for [mobile devices]========= */
@@ -69,6 +82,22 @@ header{
     }
     .header_socials,.scroll_down{
         display: none;
+    }
+    .about_me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+
+    }
+    .about_content{
+        text-align: center;
+    }
+    .about_content p{
+        margin: 1.5rem 0;
     }
 
 

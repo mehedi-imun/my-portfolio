@@ -3,7 +3,7 @@ import About from './components/pages/Home/About/About';
 import Banner from './components/pages/Home/Banner.js/Banner';
 import Contact from './components/pages/Home/Contact/Contact';
 import Experience from './components/pages/Home/Experience/Experience';
-import Services from './components/pages/Home/Services/Services';
+import Portfolio from './components/pages/Home/Portfolio/Portfolio';
 import Footer from './components/shared/Footer/Footer';
 import Header from './components/shared/Header/Header';
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Header></Header>
       <About></About>
       <Experience></Experience>
-      <Services></Services>
+      <Portfolio></Portfolio>
       <Contact></Contact>
       <Footer></Footer>
     </div>

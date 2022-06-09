@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
-import { FaAward,FaUserFriends } from 'react-icons/fa';
-import {VscFolderLibrary} from 'react-icons/vsc';
+import { FaAward, FaUserFriends } from 'react-icons/fa';
+import { VscFolderLibrary } from 'react-icons/vsc';
 import aboutImg from '../../../../assets/me-about.jpg'
 const About = () => {
     return (
@@ -20,12 +20,12 @@ const About = () => {
                         <article className='about_card'>
                             <FaAward className='about_icon'></FaAward>
                             <h5>Experience</h5>
-                            <small>2+ years working</small>
+                            <small>1+ years working</small>
                         </article>
                         <article className='about_card'>
                             <FaUserFriends className='about_icon'></FaUserFriends>
                             <h5>Clients</h5>
-                            <small>20+</small>
+                            <small>5+</small>
                         </article>
                         <article className='about_card'>
                             <VscFolderLibrary className='about_icon'></VscFolderLibrary>
@@ -34,9 +34,10 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum recusandae enim earum blanditiis quis soluta alias perspiciatis natus aut, omnis, qui dignissimos unde sunt dolor eaque aliquam dolorem, optio ratione!
+                        I am mahaedi imun anik .Junior Web Developer. I am from Bangladesh. 
+                        seasoned and independent Front end developer with experience blending the design with the skill of programming to deliver an immersive and engaging user experience through efficient website development. Adept at contributing to a highly collaborative work environment, finding solutions, and determining work satisfaction.
                     </p>
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <button className='btn btn-primary'>About More</button>
 
                 </div>
             </div>
