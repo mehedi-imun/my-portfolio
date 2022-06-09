@@ -54,7 +54,7 @@ const data = [
                     <h3>{data.title}</h3>
                     <div className="portfolio_item-cta">
                         <a href={data.demo} target="_blank" rel="noreferrer" className='btn'>Live Demo</a>
-                        <a href="https://github.com/mahedi-imun" target="_blank" rel="noreferrer" className='btn'>explore more</a>
+                        <a href="https://github.com/mahedi-imun" target="_blank" rel="noreferrer" className='btn btn-primary'>explore more</a>
                     </div>
 
                 </article>
