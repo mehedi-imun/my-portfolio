@@ -2,9 +2,11 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div>
-            about me
-        </div>
+        <section>
+            <div className=' container about-me_container'>
+                
+            </div>
+        </section>
     );
 };
 

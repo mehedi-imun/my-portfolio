@@ -63,3 +63,15 @@ h5{
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
+
+.about-me_container{
+  background: rgb(0, 0, 0, 0, 3);
+  z-index: 2;
+  backdrop-filter: blur(15px);
+}
+.text-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

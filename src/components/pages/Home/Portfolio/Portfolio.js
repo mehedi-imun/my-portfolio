@@ -5,8 +5,9 @@ import IMG2 from '../../../../assets/portfolio2.jpg'
 import IMG3 from '../../../../assets/portfolio3.jpg'
 import IMG4 from '../../../../assets/portfolio4.jpg'
 import IMG5 from '../../../../assets/portfolio5.png'
+import { Link, useNavigate } from 'react-router-dom';
 const Portfolio = () => {
-
+const navigate = useNavigate()
 const data = [
     {
         id:1,
@@ -54,7 +55,7 @@ const data = [
                     <h3>{data.title}</h3>
                     <div className="portfolio_item-cta">
                         <a href={data.demo} target="_blank" rel="noreferrer" className='btn'>Live Demo</a>
-                        <a href="https://github.com/mahedi-imun" target="_blank" rel="noreferrer" className='btn btn-primary'>explore more</a>
+                        <button onClick={()=>navigate(`/project/${data.id}`)}  className='btn btn-primary'>explore more</button>
                     </div>
 
                 </article>
