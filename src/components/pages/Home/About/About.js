@@ -1,12 +1,13 @@
-import React from 'react';
+import React  from 'react';
 import './About.css'
 import { FaAward, FaUserFriends } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import aboutImg from '../../../../assets/me-about.jpg'
+import { Link } from "react-router-dom";
 const About = () => {
     return (
         <section id='about'>
-            <h5>Get To know</h5>
+            <h3>Get To know</h3>
             <h2>About</h2>
             <div className="container about_container">
                 <div className="about_me">
@@ -37,7 +38,7 @@ const About = () => {
                         I am mahaedi imun anik .Junior Web Developer. I am from Bangladesh. 
                         seasoned and independent Front end developer with experience blending the design with the skill of programming to deliver an immersive and engaging user experience through efficient website development. Adept at contributing to a highly collaborative work environment, finding solutions, and determining work satisfaction.
                     </p>
-                    <button className='btn btn-primary'>About More</button>
+                    <Link to='/about-me' className='btn btn-primary'>About More</Link>
 
                 </div>
             </div>

@@ -2,13 +2,13 @@ import React from 'react';
 import './Footer.css'
 import {FaFacebook } from 'react-icons/fa';
 import {FiInstagram,FiTwitter } from 'react-icons/fi';
-import logo from '../../../assets/logo.png'
+import logo from '../../../assets/header_logo.png'
 const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
         <footer id='footer'>
-            <a href="#" className='footer_logo'>
+            <a href="/" className='footer_logo'>
                 <img src={logo} alt="" />
             </a>
             <ul className='permalinks'>

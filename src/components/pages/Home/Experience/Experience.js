@@ -37,14 +37,6 @@ const Experience = () => {
                        <article className=' experience_details'>
                            <BsPatchCheckFill className=" details_icon"/>
                            <div>
-                           <h4>React</h4>
-                           <small className='text-light'>Experienced</small>
-                           </div>
-
-                       </article>
-                       <article className=' experience_details'>
-                           <BsPatchCheckFill className=" details_icon"/>
-                           <div>
                            <h4>Tailwind</h4>
                            <small className='text-light'>Experienced</small>
                            </div>
@@ -105,6 +97,62 @@ const Experience = () => {
                            <div>
                            <h4>Next.Js</h4>
                            <small className='text-light'>Familial</small>
+                           </div>
+                       </article>
+                   </div>
+               </div>
+               <div className="experience_tools">
+               <h3>Tolls</h3>
+                   <div className="experience_content">
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>GitHub</h4>
+                           <small className='text-light'>Experienced</small>
+                           </div>
+
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                          <div>
+                          <h4>VS Code</h4>
+                           <small className='text-light'>Experienced</small>
+                          </div>
+
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4> Dev tools</h4>
+                           <small className='text-light'>Comfortable</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>Heroku</h4>
+                           <small className='text-light'>Experienced</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>Netlify</h4>
+                           <small className='text-light'>Experienced</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>Postman</h4>
+                           <small className='text-light'>Experienced</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>Figma</h4>
+                           <small className='text-light'>Comfortable</small>
                            </div>
                        </article>
                    </div>
