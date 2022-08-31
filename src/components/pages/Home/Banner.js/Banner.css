@@ -24,6 +24,9 @@ header{
     align-content: center;
    
 }
+.me img{
+    width: 110%;
+}
 
 
 /*  ============ Call to action btn================ */
