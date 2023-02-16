@@ -19,12 +19,12 @@ const Footer = () => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="footer_social">
-                <a href="https://www.facebook.com/mahediimun"><FaFacebook></FaFacebook></a>
-                <a href="https://twitter.com/mahedi__anik"><FiTwitter/></a>
-                <a href="https://www.instagram.com/mahedi__anik"><FiInstagram/></a>
+                <a href="https://www.facebook.com/mehediimun"><FaFacebook></FaFacebook></a>
+                <a href="https://twitter.com/mehediimun"><FiTwitter/></a>
+                <a href="https://www.instagram.com/mehedi_imun/"><FiInstagram/></a>
             </div>
             <div className="footer_copyright">
-                <small>&copy; Copyright Mahedi Imun {year} All rights reserved</small>
+                <small>&copy; Copyright Mehedi Imun {year} All rights reserved</small>
             </div>
         </footer>
     );

@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import './About.css'
 import { FaAward, FaUserFriends } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -25,8 +25,11 @@ const About = () => {
                         </article>
                         <article className='about_card'>
                             <FaUserFriends className='about_icon'></FaUserFriends>
-                            <h5>Clients</h5>
-                            <small>0</small>
+                            <h5>WORK EXPERIENCE</h5>
+                            <small>Jr Full-Stack Developer at ProCorp.
+                                Oct 2022 - Present
+                                Hyderabad, Telangana, India
+                            </small>
                         </article>
                         <article className='about_card'>
                             <VscFolderLibrary className='about_icon'></VscFolderLibrary>
@@ -35,10 +38,10 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        I am mahaedi imun anik .Junior Web Developer. I am from Bangladesh. 
+                        I am mahaedi imun anik .Junior Web Developer. I am from Bangladesh.
                         seasoned and independent Front end developer with experience blending the design with the skill of programming to deliver an immersive and engaging user experience through efficient website development. Adept at contributing to a highly collaborative work environment, finding solutions, and determining work satisfaction.
                     </p>
-                    <Link to='/about-me' className='btn btn-primary'>About More</Link>
+                    <Link to='/#about' className='btn btn-primary'>About More</Link>
 
                 </div>
             </div>

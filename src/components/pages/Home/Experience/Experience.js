@@ -59,7 +59,7 @@ const Experience = () => {
                        <article className=' experience_details'>
                            <BsPatchCheckFill className=" details_icon"/>
                            <div>
-                           <h4>react Native</h4>
+                           <h4>Redux</h4>
                            <small className='text-light'>Familiar</small>
                            </div>
                        </article>
@@ -97,6 +97,20 @@ const Experience = () => {
                            <div>
                            <h4>Next.Js</h4>
                            <small className='text-light'>Familial</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>Mongoose</h4>
+                                <small className='text-light'>Comfortable</small>
+                           </div>
+                       </article>
+                       <article className=' experience_details'>
+                           <BsPatchCheckFill className=" details_icon"/>
+                           <div>
+                           <h4>MVC Pattern</h4>
+                                <small className='text-light'>Experienced</small>
                            </div>
                        </article>
                    </div>

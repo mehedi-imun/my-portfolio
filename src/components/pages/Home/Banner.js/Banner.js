@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className=' header_container'>
                     <div className='header_info'>
                         <h5>Hello, I'm </h5>
-                        <h1>Mahedi imun anik</h1>
+                        <h1>Mehedi imun anik</h1>
                         <h5 className="text-light">
                             Junior Web Developer
                         </h5>
