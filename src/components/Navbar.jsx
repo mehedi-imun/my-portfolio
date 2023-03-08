@@ -6,7 +6,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -18,6 +18,7 @@ const Navbar = () => {
       } else {
         setScrolled(false);
       }
+  
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -38,7 +39,7 @@ const Navbar = () => {
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
-            setActive("");
+            setActive("Home");
             window.scrollTo(0, 0);
           }}
         >
@@ -46,12 +47,13 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+      
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-white bg-[#915EFF] px-3 rounded-lg" : "text-secondary  "
+              } hover:text-white text-[18px] font-medium cursor-pointer `}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>

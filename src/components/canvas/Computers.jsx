@@ -55,7 +55,6 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-    className="cursor-pointer"
       frameloop='demand'
       shadows
       dpr={[1, 2]}
