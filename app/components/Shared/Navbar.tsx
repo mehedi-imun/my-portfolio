@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div>
       chad cn  -- bd 
-      hi cn
+      hi cn algdkh
     </div>
   );
 };
