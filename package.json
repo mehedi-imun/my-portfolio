@@ -26,7 +26,7 @@
     "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.0",
     "@mui/material-nextjs": "^5.15.0",
-    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.11",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "next": "14.0.4",
